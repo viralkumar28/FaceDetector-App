@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
                 else{
                     Bundle bundle = new Bundle();
                     bundle.putString(FaceDetection.RESULT_TEXT,resultText);
-                    DialogFragment resultDialog = new ResultDialog();
+                    DialogFragment resultDialog = new resultdialog();
                     resultDialog.setArguments(bundle);
                     resultDialog.setCancelable(false);
                     resultDialog.show(getSupportFragmentManager(), FaceDetection.RESULT_DIALOG);

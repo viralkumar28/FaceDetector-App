@@ -2,4 +2,6 @@
     <string name="app_name">FaceDetector</string>
     <string name="open_camera">OPEN CAMERA</string>
     <string name="ok">OK</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

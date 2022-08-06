@@ -13,10 +13,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FaceDetector"
         tools:targetApi="31">
-        <activity
-            android:name=".ResultDialog"
-            android:exported="false" />
-
 
         <activity
             android:name=".MainActivity"

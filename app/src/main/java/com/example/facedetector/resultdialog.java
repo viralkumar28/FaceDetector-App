@@ -1,25 +1,26 @@
 package com.example.facedetector;
 
+import android.os.Bundle;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.DialogFragment;
+import androidx.fragment.app.Fragment;
 
-import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class ResultDialog extends DialogFragment {
-
+public class resultdialog extends DialogFragment {
     Button okButton;
     TextView resultTV;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.activity_result_dialog,container,false);
+        View view = inflater.inflate(R.layout.fragment_resultdialog,container,false);
 
         okButton = view.findViewById(R.id.result_ok_button);
         resultTV = view.findViewById(R.id.result_text_view);
