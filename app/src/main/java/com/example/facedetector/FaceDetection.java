@@ -3,6 +3,8 @@ package com.example.facedetector;
 import android.app.Application;
 
 import com.google.firebase.FirebaseApp;
+import com.google.mlkit.vision.face.FaceDetector;
+import com.google.mlkit.vision.face.FaceDetectorOptions;
 
 public class FaceDetection extends Application {
 

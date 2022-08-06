@@ -14,24 +14,26 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class resultdialog extends DialogFragment {
-    Button okButton;
-    TextView resultTV;
+    Button OK;
+    TextView RESULT;
 
     @Nullable
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_resultdialog,container,false);
+    public View onCreateView(@NonNull LayoutInflater inflater,
+                             @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
 
-        okButton = view.findViewById(R.id.result_ok_button);
-        resultTV = view.findViewById(R.id.result_text_view);
-
+        View view = inflater.inflate(R.layout.fragment_resultdialog, container, false);
         String resultText = "";
-        //Using Bundle coz we aren't getting just a single string but a lot more info which we need to bundle together
+
+        OK = view.findViewById(R.id.ok);
+        RESULT = view.findViewById(R.id.result);
+
         Bundle bundle = getArguments();
         resultText = bundle.getString(FaceDetection.RESULT_TEXT);
-        resultTV.setText(resultText);
+        RESULT.setText(resultText);
 
-        okButton.setOnClickListener(new View.OnClickListener() {
+        OK.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 dismiss();
