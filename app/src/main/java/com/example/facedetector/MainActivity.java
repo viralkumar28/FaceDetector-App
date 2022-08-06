@@ -80,22 +80,22 @@ public class MainActivity extends AppCompatActivity {
             DecimalFormat df = new DecimalFormat("#.00");
             for (Face face:faces) {
 
-                resultText = resultText.concat("\n\nFACE NUMBER  " + i)
-                        .concat(
-                                "\nSmile:   "
-                                        + (df.format(face.getSmilingProbability()
-                                        * 100))
-                                        + "%")
-                        .concat(
-                                "\nLeft Eye:  "
-                                        + (df.format(face.getLeftEyeOpenProbability()
-                                        * 100))
-                                        + "%")
-                        .concat(
-                                "\nRight Eye:  "
-                                        + (df.format(face.getRightEyeOpenProbability()
-                                        * 100))
-                                        + "%");
+//                resultText = resultText.concat("\n\nFACE NUMBER  " + i)
+//                        .concat(
+//                                "\nSmile:   "
+//                                        + (df.format(face.getSmilingProbability()
+//                                        * 100))
+//                                        + "%")
+//                        .concat(
+//                                "\nLeft Eye:  "
+//                                        + (df.format(face.getLeftEyeOpenProbability()
+//                                        * 100))
+//                                        + "%")
+//                        .concat(
+//                                "\nRight Eye:  "
+//                                        + (df.format(face.getRightEyeOpenProbability()
+//                                        * 100))
+//                                        + "%");
                 i++;
             }
             resultText = resultText.concat("\n\n"+i+" Faces Detected");
