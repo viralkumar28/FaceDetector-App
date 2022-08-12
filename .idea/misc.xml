@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/viral/AndroidStudioProjects/FaceDetector/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1735" />
+        <entry key="..\:/Users/viral/AndroidStudioProjects/FaceDetector/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1735" />
         <entry key="..\:/Users/viral/AndroidStudioProjects/FaceDetector/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/viral/AndroidStudioProjects/FaceDetector/app/src/main/res/layout/activity_result_dialog.xml" value="0.25" />
         <entry key="..\:/Users/viral/AndroidStudioProjects/FaceDetector/app/src/main/res/layout/fragment_resultdialog.xml" value="0.25" />

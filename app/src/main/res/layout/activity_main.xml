@@ -14,13 +14,15 @@
         android:layout_width="450dp"
         android:layout_height="wrap_content"
         android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="245dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="406dp"
         android:paddingBottom="4dp"
-        android:text="Tap to Start Camera button to detect face"
+        android:text="Tap to Start Camera button"
         android:textColor="@color/black"
         android:textSize="30sp" />
 
@@ -35,7 +37,6 @@
         android:layout_marginTop="350dp"
         android:layout_marginEnd="88dp"
         android:layout_marginBottom="50dp"
-
         android:padding="15dp"
         android:text="Start camera"
         android:textAllCaps="true" />
