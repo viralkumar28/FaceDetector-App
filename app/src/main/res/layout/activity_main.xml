@@ -22,7 +22,7 @@
         android:paddingBottom="4dp"
         android:text="Tap to Start Camera button to detect face"
         android:textColor="@color/black"
-        android:textSize="29sp" />
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/camera_btn"
